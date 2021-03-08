@@ -50,7 +50,7 @@ button {
   background-color: orange;
   color: whitesmoke;
   border-radius: 1rem;
-  display: inline-block
+  display: inline-block;
   text-align: center;
   cursor: pointer;
 }
@@ -61,31 +61,31 @@ button {
 #magic-btn:focus {
   outline: none;
 }
-.magic-btn-box{
-text-align: center;
+.magic-btn-box {
+  text-align: center;
 }
 .magic-phrase-box {
-box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   font-size: 2.2rem;
   text-align: center;
   padding: 1rem 1rem 5rem 1rem;
   appearance: none;
- border: 1px dashed whitesmoke;
+  border: 1px dashed whitesmoke;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
   display: block;
 }
 
-#magic-phrase{
+#magic-phrase {
   background-color: aquamarine;
-  color: black
- margin: 16px 8px;
-padding: 16px 16px 50px 50px;
-font-size: larger;
-font-style: MedievalSharp, cursive;
+  color: black;
+  margin: 16px 8px;
+  padding: 16px 16px 50px 50px;
+  font-size: larger;
+  font-style: MedievalSharp, cursive;
 }
-footer{
+footer {
   font-style: italic;
 }
