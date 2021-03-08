@@ -1,0 +1,91 @@
+body {
+  background-color: seashell;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+textarea,
+button {
+  font-family: Roboto, sans-serif;
+}
+.all {
+  padding: 1rem;
+}
+.oracle-title-box {
+  text-align: center;
+  padding: 1.5rem;
+  color: purple;
+}
+.oracle-title {
+  font-size: 40px;
+  font-family: MedievalSharp, cursive;
+}
+
+.magic-container {
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  border-width: 1px;
+  color: #fd7272;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px 0px;
+  margin: 0 auto;
+  max-width: 900px;
+  max-height: 600px;
+}
+
+.magic-generate {
+  text-align: left;
+  color: red;
+}
+#magic-btn {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: orange;
+  color: whitesmoke;
+  border-radius: 1rem;
+  display: inline-block
+  text-align: center;
+  cursor: pointer;
+}
+#magic-btn:hover {
+  background-color: whitesmoke;
+  color: orange;
+}
+#magic-btn:focus {
+  outline: none;
+}
+.magic-btn-box{
+text-align: center;
+}
+.magic-phrase-box {
+box-sizing: border-box;
+  width: 100%;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 1rem 1rem 5rem 1rem;
+  appearance: none;
+ border: 1px dashed whitesmoke;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+  display: block;
+}
+
+#magic-phrase{
+  background-color: aquamarine;
+  color: black
+ margin: 16px 8px;
+padding: 16px 16px 50px 50px;
+font-size: larger;
+font-style: MedievalSharp, cursive;
+}
+footer{
+  font-style: italic;
+}
