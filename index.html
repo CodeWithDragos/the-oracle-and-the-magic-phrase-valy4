@@ -3,21 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Feeel free to add Bootstrap and the Google Font of your choice -->
     <title>The Oracle - Magic Phrase</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div>
-      <div>
-        <h1>The Oracle will predict your Future <span>🍄</span></h1>
+    <div class="all">
+      <div class="oracle-title-box">
+        <h1 class="oracle-title">
+          The Oracle will predict your Future <span>🍄</span>
+        </h1>
       </div>
-      <div>
+      <div class="magic-container">
         <div>
-          <h3>Generate a Magic Phrase</h3>
+          <h3 class="magic-generate">Generate a Magic Phrase</h3>
         </div>
-        <div>
+        <div class="magic-phrase-box">
           <textarea
             disabled
             readonly
@@ -26,8 +34,8 @@
             aria-label="Tell me the magic phrase"
           ></textarea>
         </div>
-        <div>
-          <button id="magic-btn">Magic</button>
+        <div class="magic-btn-box">
+          <button id="magic-btn">Make Magic</button>
         </div>
       </div>
       <footer>
